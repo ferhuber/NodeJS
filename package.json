@@ -1,14 +1,14 @@
 {
   "name": "node-express-i",
   "version": "0.0.1",
-  "description": "Demo for Node & Express I lesson",
+  "description": "Quiz",
   "main": "app.js",
   "repository": {},
   "scripts": {
     "start": "nodemon app.js",
     "debug": "node --inspect app.js"
   },
-  "author": "Steve Godin",
+  "author": "Fernando Huber",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.16.0",
