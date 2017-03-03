@@ -1,0 +1,12 @@
+/log/*
+!/log/.keep
+/tmp
+/node_modules
+/public/webpack
+.env
+.env.development
+npm-debug.log
+.byebug_history
+.env.test
+.env.production
+/public/node_modules/faker
