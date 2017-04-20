@@ -2,48 +2,43 @@
   <%- include('../partials/header') %>
 </div>
 
-
-
 <div class="container">
-
-<div class="row">
-  <div class="col-md-5 "><i></i>
-  <div class="left">
-    <div class="col-md-10">
-      <div class="full-name">
-        <i></i>
-        <div class="col-md-4">
-          <div class="left-name">
-          <img  src="img/hqdefault.jpg" id="img">
-          <h4>Messages:</h4>
-          <h2><%= tweets.length %></h2>
+  <div class="row">
+    <div class="col-md-5 "><i></i>
+    <div class="left">
+      <div class="col-md-10">
+        <div class="full-name">
+          <i></i>
+          <div class="col-md-4">
+            <div class="left-name">
+            <img  src="img/hqdefault.jpg" id="img">
+            <h4>Messages:</h4>
+            <h2><%= tweets.length %></h2>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="right-name">
+            <h1>Full name</h1>
+            <p>@username</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="right-name">
-          <h1>Full name</h1>
-          <p>@username</p>
-          </div>
-        </div>
-      </div>
-      <div class="trending">
-        <h3>Trending Awe tweets</h3>
-        <div class="tweets">
-        <p>#Things</p>
-        <p>#WinterIsHer</p>
-        <p>#TrumpIsAlumo</p>
-        <p>#BetterGetThatCheckedUSA</p>
-        <p>#Node8inApril</p>
-        <p>#EllenGaveEverybodyAThing</p>
+        <div class="trending">
+          <h3>Trending Awe tweets</h3>
+            <div class="tweets">
+              <p>#Things</p>
+              <p>#WinterIsHer</p>
+              <p>#TrumpIsAlumo</p>
+              <p>#BetterGetThatCheckedUSA</p>
+              <p>#Node8inApril</p>
+              <p>#EllenGaveEverybodyAThing</p>
+            </div>
         </div>
       </div>
     </div>
-</div>
-</div>
-
+  </div>
 <div class="col-md-7"><i></i>
   <div class="right">
-
       <main class="container-fluid">
         <div class="tweet">
           <form method="post" action="/">
@@ -57,7 +52,6 @@
           <input class="buton" type="submit" name="submit"/>
           </form>
         </div>
-
         <div class="col-md-12">
           <div class="panel-message">
             <% for (i = tweets.length -1 ; i >= 0; i--){ %>
@@ -74,8 +68,8 @@
           </div>
         </div>
       </main>
+    </div>
+   </div>
   </div>
-</div>
-</div>
 </div>
 <%- include('../partials/footer') %>
