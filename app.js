@@ -14,6 +14,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(logger('dev'))
 app.use('/', home);
 
-const PORT = 6969;
-app.listen(PORT, function() {console.log("Server is listening on PORT: " + PORT);
+// const PORT = 6969;
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
+// app.listen(PORT, function() {console.log("Server is listening on PORT: " + PORT);
+// });
