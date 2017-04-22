@@ -3,6 +3,7 @@ const Express = require('express')
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const Faker = require('Faker');
 
 const home = require('./routes/home');
 const app = Express();
