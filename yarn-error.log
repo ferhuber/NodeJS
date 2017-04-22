@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/Hubao/.nvm/versions/node/v7.4.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/Hubao/.rvm/gems/ruby-2.3.3/bin:/Users/Hubao/.rvm/gems/ruby-2.3.3@global/bin:/Users/Hubao/.rvm/rubies/ruby-2.3.3/bin:/Users/Hubao/.nvm/versions/node/v7.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Hubao/.rvm/bin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  7.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "node-express-i",
+    "version": "0.0.1",
+    "description": "Quiz",
+    "main": "app.js",
+    "repository": {},
+    "scripts": {
+      "start": "nodemon app.js",
+      "debug": "node --inspect app.js"
+    },
+    "author": "Fernando Huber",
+    "license": "MIT",
+    "dependencies": {
+      "body-parser": "^1.16.0",
+      "cookie-parser": "^1.4.3",
+      "ejs": "^2.5.5",
+      "express": "^4.14.1",
+      "morgan": "^1.7.0",
+      "nodemon": "^1.11.0",
+      "path": "^0.12.7",
+      "pg": "^6.1.2"
+    },
+    "devDependencies": {
+      "Faker": "^0.7.2",
+      "nodemon": "^1.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/Users/Hubao/codecore/Assigments/quiz/node_modules/Faker/.jshintignore'
